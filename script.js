@@ -9,7 +9,7 @@ const display = {
 
 const fps = 30;
 
-var gameState = 1;
+var gameState = 0;
 var wave = 0;
 
 var pl = { // player / teacher
