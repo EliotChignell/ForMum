@@ -150,6 +150,7 @@ function mLoop() {
       dt(167,100,'black','50px SFCompactDisplay','Game Over!');
       dt(75,300,'black','30px SFCompactDisplay','Press r to restart or press q to quit');
       dt(175,450,'black','30px SFCompactDisplay','Students Caught: '+studentsCaught);
+      dt(5,550,'black','30px SFCompactDisplay','Press g to go to the GitHub page of this game');
 
       if (82 in keysDown) { // restart
         studentsCaught = 0;
@@ -158,6 +159,7 @@ function mLoop() {
       }
 
       if (81 in keysDown) window.location = 'https://eliotchignell.github.io/';
+      if (71 in keysDown) window.location = 'https://github.com/EliotChignell/ForMum';
       break;
   }
 }
