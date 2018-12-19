@@ -1,0 +1,22 @@
+@font-face {
+  font-family: SFCompactDisplay;
+  src: url("https://eliotchignell.github.io/assets/fonts/SFCompactDisplay-Medium.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: SFCompactDisplay/* , -apple-system, BlinkMacSystemFont */;
+  background-color: black;
+  color: white;
+}
+
+#mainCanvas {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
