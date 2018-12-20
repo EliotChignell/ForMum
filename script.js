@@ -155,6 +155,7 @@ function mLoop() {
       if (82 in keysDown) { // restart
         studentsCaught = 0;
         wave = 0;
+        generateStudents(1);
         gameState = 0;
       }
 
